@@ -8,7 +8,8 @@ import math
 ## Define your functions to calculate the attributes below:
 
 ### Area
-
+def area_of_sphere(r):
+    return math.pi*4*r*r
 #### print your results here:
 #print(f"Area of circle with radius size {r} = {<name_of_function>(r):.2f}")
 #print(f"Area of sphere with radius size {r} = {<name_of_function>(r):.2f}")
