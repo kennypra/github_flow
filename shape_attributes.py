@@ -10,6 +10,8 @@ import math
 ### Area
 def area_of_sphere(r):
     return math.pi*4*r*r
+def area_of_circle(r):
+    return math.pi*r*r
 #### print your results here:
 #print(f"Area of circle with radius size {r} = {<name_of_function>(r):.2f}")
 #print(f"Area of sphere with radius size {r} = {<name_of_function>(r):.2f}")
