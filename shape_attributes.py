@@ -8,6 +8,8 @@ import math
 ## Define your functions to calculate the attributes below:
 
 ### Area
+def area_of_sphere(r):
+    return math.pi*4*r*r
 def area_of_circle(r):
     return math.pi*r*r
 #### print your results here:
